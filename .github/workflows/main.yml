@@ -7,59 +7,59 @@ on:
         description: "Integrate YouPiP"
         type: boolean
         required: true
-        default: false
+        default: true
 
       enable_ytuhd:
         description: "Integrate YTUHD"
         type: boolean
         required: true
-        default: false
+        default: true
 
       enable_yq:
         description: "Integrate YouQuality"
         type: boolean
         required: true
-        default: false
+        default: true
 
       enable_ryd:
         description: "Integrate Return YouTube Dislikes"
         type: boolean
         required: true
-        default: false
+        default: true
 
       enable_ytabc:
         description: "Integrate YTABConfig"
         type: boolean
         required: true
-        default: false
+        default: true
 
       enable_demc:
         description: "Integrate DontEatMyContent"
         type: boolean
         required: true
-        default: false
+        default: true
 
       ipa_url:
         description: "URL to the decrypted IPA file"
-        default: ""
+        default: "https://github.com/Kylmakalle/ipa/releases/download/youtube/app.ipa"
         required: true
         type: string
 
       tweak_version:
         description: "The version of the tweak to use. Enter the version manually from dayanch96/YTLite/releases or leave default"
-        default: "5.2.1"
+        default: "5.2b4"
         required: true
         type: string
 
       display_name:
         description: "App Name (Optional)"
-        default: "YouTube"
+        default: "YouTube+"
         required: true
         type: string
 
       bundle_id:
         description: "BundleID (Optional)"
-        default: "com.google.ios.youtube"
+        default: "fi.akentech.vidosi"
         required: true
         type: string
 
